@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-01-emotion/static/css/main.4cf2bace.css",
+    "main.js": "/goit-react-hw-01-emotion/static/js/main.c7fc1d9c.js",
+    "index.html": "/goit-react-hw-01-emotion/index.html",
+    "main.4cf2bace.css.map": "/goit-react-hw-01-emotion/static/css/main.4cf2bace.css.map",
+    "main.c7fc1d9c.js.map": "/goit-react-hw-01-emotion/static/js/main.c7fc1d9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cf2bace.css",
+    "static/js/main.c7fc1d9c.js"
+  ]
+}
