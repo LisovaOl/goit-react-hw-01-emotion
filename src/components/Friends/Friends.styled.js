@@ -3,10 +3,12 @@ import styled from '@emotion/styled';
 export const Container = styled.div`
   margin-right: auto;
   margin-left: auto;
+  width: 300px;
 `;
 export const FriendsList = styled.ul`
   margin-right: auto;
   margin-left: auto;
+  
 `;
 
 export const Item = styled.li`
@@ -18,7 +20,7 @@ export const Item = styled.li`
 
 export const FriendsItem = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 `;
 export const Status = styled.span`
