@@ -1,0 +1,37 @@
+.profile {
+  width: 300px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+.description {
+  padding: 20px;
+}
+.name {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.tag,
+.location {
+  margin-top: 10px;
+  text-align: center;
+}
+.stats {
+  display: flex;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: lightslategray;
+}
+.label {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 10px;
+}
+.quantity {
+  font-weight: bold;
+}
