@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 // import css from './FriendsList.module.css';
 import { FriendsItem, Status, Avatar, NameFriend } from './Friends.styled';
 
-
 export default function FriendItem({ friends }) {
   // console.log(friends.isOnline);
 

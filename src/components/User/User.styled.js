@@ -12,10 +12,10 @@ export const Description = styled.div`
   padding: 20px;
 `;
 export const UserName = styled.p`
-margin-top: 10px;
-text-transform: uppercase;
-font-weight: bold;
-`
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+`;
 export const UserTag = styled.p`
   margin-top: 10px;
   text-align: center;
@@ -29,8 +29,7 @@ export const Stats = styled.ul`
   margin-top: 10px;
   padding: 20px;
   background-color: lightslategray;
-
-`
+`;
 export const Label = styled.span`
   display: flex;
   padding-left: 16px;
@@ -40,5 +39,4 @@ export const Label = styled.span`
 
 export const Quantity = styled.span`
   font-weight: bold;
-
-` 
+`;

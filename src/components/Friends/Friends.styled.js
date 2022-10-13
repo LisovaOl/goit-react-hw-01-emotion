@@ -34,4 +34,3 @@ export const Avatar = styled.img`
 export const NameFriend = styled.p`
   font-weight: bold;
 `;
-

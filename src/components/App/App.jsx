@@ -9,7 +9,7 @@ import FriendList from '../Friends/FriendsList';
 import TransactionHistory from '../Transaction/Transaction';
 
 import { Container } from './App.styled';
-  
+
 export const App = () => {
   return (
     <Container>

@@ -2,20 +2,18 @@ import PropTypes from 'prop-types';
 // import css from './Transaction.module.css'
 import { Table, TitleTable, TextTable, TextRow } from './Transaction.styled';
 
-
-
 export default function TransactionHistory({ transactions }) {
   return (
     <Table>
       <thead>
         <tr>
-          <TitleTable >Type</TitleTable>
-          <TitleTable >Amount</TitleTable>
-          <TitleTable >Currency</TitleTable>
+          <TitleTable>Type</TitleTable>
+          <TitleTable>Amount</TitleTable>
+          <TitleTable>Currency</TitleTable>
         </tr>
       </thead>
 
-      <TextRow >
+      <TextRow>
         {transactions.map(item => (
           <tr key={item.id}>
             <TextTable>{item.type}</TextTable>
@@ -28,10 +26,12 @@ export default function TransactionHistory({ transactions }) {
   );
 }
 TransactionHistory.propTypes = {
-  transactions: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired,
-    amount: PropTypes.string.isRequired,
-    currency: PropTypes.string.isRequired,
-  }),)
+  transactions: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ),
 };

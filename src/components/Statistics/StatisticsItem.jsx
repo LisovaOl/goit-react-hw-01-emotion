@@ -4,7 +4,7 @@ import { Lable, Percentage } from './Statistics.styled';
 export default function StatItem({ stats }) {
   return (
     <div>
-      <Lable >{stats.label}</Lable>
+      <Lable>{stats.label}</Lable>
       <Percentage>{stats.percentage}%</Percentage>
     </div>
   );
